@@ -271,14 +271,13 @@ footer{
     }
     .players {
         grid-template-columns: repeat(1, 1fr);
-    }
-    .player{
-        width: 100%;
-        padding: 10px;
-        margin-right: 200px;
+        justify-items: center;
     }
     .flexiable-header, .flexiable, .partners-logo-list, .nav  {
         flex-direction: column;
+        /* width: 90%;
+        justify-content: center; */
+        
     }
     .player-review{
         text-align: center;
